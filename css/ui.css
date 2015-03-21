@@ -1,0 +1,41 @@
+html, body {
+	height: 100%;
+	width:100%;
+	font-size: 14px;
+}
+
+a{
+	cursor: pointer;
+}
+
+h1{
+	display: none;
+}
+
+#header {
+	padding:0px;
+	margin:0 auto;
+	width: 100%;
+	text-align: center;
+	background-image: url(../gfx/bg.jpg);
+	background-repeat: repeat-x;
+	background-position: center;
+}
+
+#header img{
+	max-width:585.14px;
+	width: 100%;
+}
+
+#body {
+	padding:2rem;
+	color:#666;
+	text-align: center;
+}
+
+#body p {
+	font-family: 'Muli', sans-serif;
+	margin:0 auto 2rem;
+	font-size: 1rem;
+	max-width: 500px;
+}
